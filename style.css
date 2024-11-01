@@ -42,11 +42,22 @@ section{
         align-items: center;
         opacity: 70%;
     }
+    & figcaption{
+        font-weight: 600px;
+        font-style: italic;
+        background-color: #888888;
+        padding: 5px;
+        color: aliceblue;
+    }
     & p{
         text-indent: 20px;
         margin: 20px 0;
         font-weight: 600;
+        font-size: 1.2rem;
     }
+}
+#section2{
+    column-count: 3;
 }
 footer{
     text-align: center;
