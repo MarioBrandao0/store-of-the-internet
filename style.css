@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.3QJJ-5racnOb1X2vn9gMwgHaKb?rs=1&pid=ImgDetMain");
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 3rem;
+    width: 60%;
+}
+#nomeautor{
+    align-items: center;
+    text-align: right;
+    margin: auto;
+    width: 60%;
+    border-bottom: 2px solid black;
+    font-size: 2rem;
+
+}
+section{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    height: 100%;
+    column-count: 2;
+    column-gap: 43px;
+    column-rule: 2px solid #8D9C3D;
+    & img{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+        align-items: center;
+        opacity: 70%;
+    }
+    & figcaption{
+        font-weight: 600px;
+        font-style: italic;
+        background-color: #888888;
+        padding: 5px;
+        color: aliceblue;
+    }
+    & p{
+        text-indent: 20px;
+        margin: 20px 0;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+}
+#section2{
+    column-count: 3;
+}
+footer{
+    text-align: center;
+    padding: 100px;
+    border-top: 2px solid #8D9C3D;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
