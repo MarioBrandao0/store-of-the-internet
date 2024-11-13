@@ -2,16 +2,26 @@
     box-sizing: border-box;
     margin: 0;
 }
-body{
-    background-image: url("https://th.bing.com/th/id/OIP.3QJJ-5racnOb1X2vn9gMwgHaKb?rs=1&pid=ImgDetMain");
+body {
+    background-image: url("https://wallpaperaccess.com/full/3306106.jpg");
+    background-size: cover;  /* Ensures the image covers the whole page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
+
 #hero{
     display: flex;
     flex-direction: column;
 }
 h1, h2{
-
+    margin:auto;
+    margin-top: 40px;
+    width: 70%;
     font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    
+    margin-top: 40px;
 }
 h1{
     margin: auto;
@@ -19,6 +29,11 @@ h1{
     text-align: center;
     font-size: 4rem;
     width: 70%;
+}
+h2{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 20px;
 }
 #nomeautor{
     align-items: center;
@@ -36,7 +51,7 @@ section{
     height: 100%;
     column-count: 2;
     column-gap: 43px;
-    column-rule: 2px solid #8D9C3D;
+    column-rule: 2px solid #50504e;
     & img{
         display: flex;
         flex-direction: column;
@@ -76,11 +91,11 @@ footer{
     margin-top: 20px;
     & p{
         margin: 20px;
-        color: #545252;
+        color: #ede8e8;
         font-weight: 800;
     }
     & strong{
-        color: rgb(101, 6, 6);
+        color: rgb(53, 2, 2);
         font-style: italic;
     }
 
