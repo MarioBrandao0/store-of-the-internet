@@ -7,6 +7,7 @@ body {
     background-size: cover;  /* Ensures the image covers the whole page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
+    
 }
 
 #hero{
@@ -89,6 +90,7 @@ footer{
     padding: 50px;
     border-top: 2px solid #8D9C3D;
     margin-top: 20px;
+    background-color: #50504efc;
     & p{
         margin: 20px;
         color: #ede8e8;
